@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.eco-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eco-list {
+  @extend .eco-inline;
+  list-style: none;
+  padding: 0;
+}
