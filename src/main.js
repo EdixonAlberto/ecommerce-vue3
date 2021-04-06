@@ -4,6 +4,6 @@ import router from './router'
 import store from './store'
 
 // ASSETS
-import '@/assets/scss/main.scss'
+import '~ASSETS/scss/main.scss'
 
 createApp(App).use(store).use(router).mount('#app')
