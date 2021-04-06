@@ -4,13 +4,35 @@
 
     <nav>
       <ul class="eco-list">
-        <li>🔎 Buscar</li>
-        <li>✨ Favoritos</li>
-        <li>🚗 Carrito de Compras</li>
+        <li>
+          <router-link class="eco-unlink" to="#">
+            <div class="icon-container">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </router-link>
+        </li>
+
+        <li>
+          <router-link class="eco-unlink" to="#">
+            <div class="icon-container">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+          </router-link>
+        </li>
+
+        <li>
+          <router-link class="eco-unlink" to="#">
+            <div class="icon-container">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </div>
+          </router-link>
+        </li>
       </ul>
     </nav>
 
-    <div class="account">Ingresar</div>
+    <div class="account">
+      <button class="eco-btn">Login</button>
+    </div>
   </header>
 </template>
 
