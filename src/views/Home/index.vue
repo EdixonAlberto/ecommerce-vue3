@@ -1,3 +1,15 @@
 <template>
-  <!-- <h3 class="eco-inline">Home</h3> -->
+  <div class="home">
+    <div class="banner"></div>
+  </div>
 </template>
+
+<script>
+export default {
+  name: 'Home',
+
+  setup() {}
+}
+</script>
+
+<style lang="scss" scoped src="./Home.scss" />

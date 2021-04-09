@@ -17,6 +17,6 @@ export default {
 
 <style lang="scss" scoped>
 .app-container {
-  margin-top: 65px;
+  margin-top: $height-header;
 }
 </style>
