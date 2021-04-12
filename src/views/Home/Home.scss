@@ -1,5 +1,46 @@
 .home {
+  background-color: #f6f7fb;
+  padding-bottom: 100px; // TEST
+
   .banner {
     height: calc(100vh - #{$height-header});
+  }
+
+  .eco-container {
+    position: relative;
+    background-color: $color-black;
+    padding: 0 80px;
+
+    h2 {
+      padding: 100px 20px 50px 20px;
+      margin: 0;
+      text-align: left;
+      font-size: 2.5rem;
+    }
+
+    &::before {
+      content: '';
+      height: 25%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #f6f7fb;
+      z-index: 0;
+    }
+
+    .steps {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .card-step {
+        height: 280px;
+        margin: 0 15px;
+        background-color: white;
+        z-index: 1;
+      }
+    }
   }
 }
