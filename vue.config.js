@@ -7,7 +7,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "~ASSETS/scss/_variables.scss";`
+        prependData: `@import "~ASSETS/scss/global.scss";`
       },
       postcss: {
         autoprefixer: true,
