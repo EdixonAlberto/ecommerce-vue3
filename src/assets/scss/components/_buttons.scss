@@ -2,16 +2,22 @@
   cursor: pointer;
   padding: 8px;
   margin: 0;
-  background-color: $color-black-lite;
+
+  background-color: $color-black;
   color: white;
   font-size: 0.8rem;
   font-weight: 700;
-  border: 0 solid $color-black-lite;
-  border-radius: 0;
+
+  border: 2px solid black;
+  border-left-width: 2px;
+  border-radius: 3px;
   transition: all 0.15s ease-out;
 
+  &:focus {
+    outline: none;
+  }
+
   &:hover {
-    border: 0 solid $color-black;
     border-left-width: 15px;
   }
 
