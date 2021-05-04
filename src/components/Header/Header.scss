@@ -6,7 +6,7 @@ header {
   position: fixed;
   top: 0;
   justify-content: space-between;
-  padding: 0 $padding_x;
+  padding: 0 $padding-x;
 
   .logo {
     height: $height-navbar;
@@ -39,7 +39,7 @@ header {
           justify-content: center;
           transition: all 0.15s ease-out;
 
-          i {
+          svg {
             font-size: 20px;
             color: $color-black-lite;
           }

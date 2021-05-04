@@ -6,13 +6,13 @@
       <ul class="navbar eco-list">
         <li class="nav">
           <router-link class="nav-container eco-unlink" to="#">
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <fa :icon="['fas', 'search']" />
           </router-link>
         </li>
 
         <li class="nav">
           <router-link class="nav-container eco-unlink" to="#">
-            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            <fa :icon="['far', 'heart']" />
           </router-link>
         </li>
 
@@ -23,7 +23,7 @@
             @click="cart.openMenu = !cart.openMenu"
             @mouseleave="cart.openMenu = false"
           >
-            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <fa :icon="['fas', 'shopping-cart']" />
           </div>
 
           <div v-show="cart.openMenu" class="menu">
