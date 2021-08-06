@@ -5,7 +5,7 @@ import store from './store'
 import { FontAwesomePlugin } from './plugins/FontAwesome.plugin'
 
 // ASSETS
-import '~ASSETS/scss/main.scss'
+import './scss/main.scss'
 
 // PLUGINS
 const loadComponent = createApp(App).component

@@ -1,0 +1,27 @@
+.eco-btn {
+  $color-black: #000;
+
+  cursor: pointer;
+  background-color: $color-white;
+  border: 3px solid;
+  box-shadow: 5px 5px 0 0 $color-black;
+
+  color: $color-black;
+  font-size: 18px;
+  font-weight: 700;
+
+  transition: all 0.15s ease-in-out;
+
+  span {
+    color: $color-black;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    box-shadow: none;
+    transform: translate(5px, 5px);
+  }
+}

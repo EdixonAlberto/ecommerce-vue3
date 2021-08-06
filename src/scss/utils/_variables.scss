@@ -4,10 +4,8 @@ $color-black: rgba(
   $alpha: 0.41
 );
 $color-black-lite: #393d46;
+$color-white: #fff;
 
 // SIZES
 $height-header: 80px;
 $height-navbar: $height-header / 2;
-
-// EXTENDS
-@import './extends';
