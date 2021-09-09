@@ -1,6 +1,7 @@
-footer {
-  $height-icons: 40px;
+$height-icon-pay: 40px;
+$size-icon-net: 22px;
 
+footer {
   box-sizing: border-box;
   width: 100%;
   height: 280px;
@@ -17,13 +18,13 @@ footer {
 
   .copy {
     a {
-      color: $color-black-lite;
+      color: $color-grey;
       font-weight: 700;
     }
   }
 
   .networks {
-    height: $height-icons;
+    height: $height-icon-pay;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,17 +33,16 @@ footer {
     .network {
       padding: 4px;
 
-      // TODO: mejorar spacio vertical
       svg {
-        width: 22px;
+        width: $size-icon-net;
         height: 100%;
-        font-size: 22px;
+        font-size: $size-icon-net;
       }
     }
   }
 
   .payments {
-    height: $height-icons;
+    height: $height-icon-pay;
     display: flex;
     align-items: center;
     justify-content: center;

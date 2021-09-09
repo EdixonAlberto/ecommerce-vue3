@@ -38,7 +38,9 @@
     </nav>
 
     <div class="account">
-      <button class="eco-btn">Login</button>
+      <button class="eco-btn">
+        <span>Login</span>
+      </button>
     </div>
   </header>
 </template>

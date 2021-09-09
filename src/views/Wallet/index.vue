@@ -6,12 +6,12 @@
 
         <section class="buttons">
           <button class="eco-btn">
-            <!-- icon -->
+            <!-- TODO: icon -->
             <span>Withdraw</span>
           </button>
 
           <button class="eco-btn">
-            <!-- icon -->
+            <!-- TODO: icon -->
             <span>Deposit</span>
           </button>
         </section>

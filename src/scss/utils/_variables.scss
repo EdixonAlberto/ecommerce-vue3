@@ -1,10 +1,11 @@
 // COLORS
-$color-black: rgba(
-  $color: #000000,
+$color-black: #000;
+$color-black-lite: rgba(
+  $color: #000,
   $alpha: 0.41
 );
-$color-black-lite: #393d46;
-$color-white: #fff;
+$color-grey: #393d46;
+$color-white: #f6f7fb;
 
 // SIZES
 $height-header: 80px;
