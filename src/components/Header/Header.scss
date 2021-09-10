@@ -2,7 +2,7 @@ $padding-x: 20px;
 $size-icon: 20px;
 
 header {
-  width: calc(100% - #{$padding-x} * 2);
+  width: 100%;
   height: $height-header;
   padding: 0 $padding-x;
   position: fixed;
