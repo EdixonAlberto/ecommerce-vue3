@@ -1,7 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
-import { faHeart, faStar } from '@fortawesome/free-regular-svg-icons'
+import {
+  faCartArrowDown,
+  faSearch,
+  faShippingFast,
+  faShoppingCart
+} from '@fortawesome/free-solid-svg-icons'
+import { faCreditCard, faHeart, faStar } from '@fortawesome/free-regular-svg-icons'
 import {
   faCcDiscover,
   faCcMastercard,
@@ -25,7 +30,10 @@ library.add(
   faCcMastercard,
   faCcVisa,
   faCcDiscover,
-  faStar
+  faStar,
+  faCartArrowDown,
+  faCreditCard,
+  faShippingFast
 )
 
 class FontAwesomePlugin {

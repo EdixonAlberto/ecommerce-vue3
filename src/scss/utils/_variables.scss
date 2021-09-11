@@ -5,7 +5,12 @@ $color-black-lite: rgba(
   $alpha: 0.41
 );
 $color-grey: #393d46;
+$color-grey-lite: #68768e;
 $color-white: #f6f7fb;
+$color-white-lite: rgba(
+  $color: $color-white,
+  $alpha: 0.6
+);
 
 // SIZES
 $height-header: 80px;

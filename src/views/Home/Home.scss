@@ -2,28 +2,99 @@
   padding-bottom: 100px;
   background: $color-white;
 
-  .banner {
+  section {
+    width: 100%;
+    padding: 100px;
+  }
+
+  section.banner {
     height: calc(100vh - #{$height-header});
+
+    .container {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      background: #fff;
+
+      .content {
+        width: 50%;
+        height: max-content;
+        margin: 0 0 0 6.25rem;
+
+        h1 {
+          margin-top: 0;
+          margin-bottom: 1.25rem;
+          font-size: 5rem;
+          font-weight: 500;
+          color: $color-grey;
+        }
+
+        p {
+          margin: 0;
+          margin-bottom: 2.5rem;
+          color: $color-grey-lite;
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+        }
+
+        .data-container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          column-gap: 40px;
+          margin-bottom: 40px;
+
+          .data {
+            width: 12.5rem;
+
+            h3 {
+              color: $color-grey-lite;
+            }
+
+            span {
+              color: $color-grey;
+              font-size: 30px;
+              font-weight: 600;
+            }
+          }
+        }
+
+        // .pay {
+        // }
+      }
+
+      .image {
+        width: 50%;
+        height: 100%;
+
+        position: relative;
+        left: 30px;
+
+        background-image: url('/static/img/banner-main.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
+      }
+    }
   }
 
   section.products {
-    width: 100%;
-    padding: 100px 0;
-
     .card-container {
       $with-card: 320px;
-      $padding-side: 35px;
 
       width: 100%;
-      padding: 0 100px;
 
       display: grid;
       grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(4, $with-card);
+      grid-template-columns: repeat(auto-fill, $with-card);
       gap: 20px;
       align-content: center;
       justify-items: center;
-      justify-content: center;
+      justify-content: space-between;
 
       .card {
         width: $with-card;
@@ -47,7 +118,7 @@
           color: $color-white;
           background: rgba($color: #4a4e56, $alpha: 0.9);
 
-          opacity: 1;
+          opacity: 0;
           transition: opacity 0.3s ease-in-out;
 
           p {
@@ -70,14 +141,10 @@
             }
           }
 
-          .absolute {
+          .buy {
             position: absolute;
-            bottom: 45px;
-          }
-
-          .pay {
-            width: calc(60% - #{$padding-side});
             left: 30px;
+            bottom: 45px;
 
             p {
               padding-left: 10px;
@@ -86,32 +153,8 @@
 
               span {
                 margin-right: 5px;
-                color: rgba($color: $color-white, $alpha: 0.6);
+                color: $color-white-lite;
                 text-decoration: line-through;
-              }
-            }
-
-            button {
-              width: 100%;
-              padding: 10px 20px;
-
-              span {
-                text-transform: capitalize;
-              }
-            }
-          }
-
-          .add {
-            cursor: pointer;
-            width: calc(40% - #{$padding-side});
-            right: 30px;
-            text-align: right;
-
-            svg {
-              font-size: 30px;
-
-              &:first-child {
-                margin-right: 15px;
               }
             }
           }
@@ -137,43 +180,73 @@
     }
   }
 
-  .eco-container {
-    padding: 0 80px;
-    position: relative;
-    background: $color-black-lite;
+  section.purchase {
+    .step-container {
+      padding: 8.75rem;
+      padding-bottom: 0;
+      position: relative;
 
-    h2 {
-      margin: 0;
-      padding: 100px 20px 50px 20px;
-      text-align: left;
-      font-size: 40px;
-    }
+      background: $color-grey;
 
-    .steps {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      .card-step {
-        height: 280px;
-        margin: 0 15px;
-        background: white;
-        z-index: 1;
+      h2 {
+        margin: 0;
+        margin-bottom: 70px;
+        color: $color-white;
+        font-size: 40px;
+        font-weight: 500;
       }
-    }
 
-    &::before {
-      content: '';
-      width: 100%;
-      height: 25%;
+      .steps {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        justify-content: space-between;
 
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
+        .card-step {
+          height: 18.75rem;
+          padding: 30px 40px;
 
-      background: $color-white;
-      z-index: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          background: white;
+          z-index: 1;
+
+          svg {
+            font-size: 40px;
+          }
+
+          p {
+            margin-top: 0;
+            font-size: 1.25rem;
+            line-height: 1.875rem;
+            color: $color-grey-lite;
+          }
+
+          a {
+            width: max-content;
+            color: $color-grey;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 25%;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background: $color-white;
+        z-index: 0;
+      }
     }
   }
 }
