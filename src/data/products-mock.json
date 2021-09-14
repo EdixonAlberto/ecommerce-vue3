@@ -1,77 +1,77 @@
 [
   {
     "id": "1",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "2",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "3",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "4",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "5",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "6",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "7",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "8",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "9",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "10",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "11",
-    "name": "name",
+    "name": "product name",
     "img": "/static/img/product-test.png",
     "stars": 4.7,
     "price": 117.99

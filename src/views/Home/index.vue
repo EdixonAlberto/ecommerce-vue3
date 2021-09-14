@@ -52,7 +52,7 @@
 
             <div class="buy">
               <p><span>$ 100</span> $ {{ product.price }}</p>
-              <buy-add :trunk="user.trunk" box-width="auto" />
+              <buy-add :trunk="user.trunk" box-width="auto" iconColor="#f6f7fb" />
             </div>
           </div>
         </div>

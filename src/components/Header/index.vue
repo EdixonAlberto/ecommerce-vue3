@@ -1,18 +1,20 @@
 <template>
   <header class="eco-inline">
-    <div class="logo">Ecommerce Vue3</div>
+    <div class="logo">
+      <span>Ecommerce Vue3</span>
+    </div>
 
     <nav>
       <ul class="navbar eco-list">
         <li class="nav">
           <router-link class="nav-container eco-unlink" to="#">
-            <fa :icon="['fas', 'search']" />
+            <fa class="eco-icon" :icon="['fas', 'search']" />
           </router-link>
         </li>
 
         <li class="nav">
           <router-link class="nav-container eco-unlink" to="#">
-            <fa :icon="['far', 'heart']" />
+            <fa class="eco-icon" :icon="['far', 'heart']" />
           </router-link>
         </li>
 
@@ -23,7 +25,7 @@
             @click="cart.openMenu = !cart.openMenu"
             @mouseleave="cart.openMenu = false"
           >
-            <fa :icon="['fas', 'shopping-cart']" />
+            <fa class="eco-icon" :icon="['fas', 'shopping-cart']" />
           </div>
 
           <div v-show="cart.openMenu" class="menu">

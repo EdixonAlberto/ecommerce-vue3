@@ -1,10 +1,7 @@
-$padding-x: 20px;
-$size-icon: 20px;
-
 header {
   width: 100%;
   height: $height-header;
-  padding: 0 $padding-x;
+  padding: 0 $space-hf;
   position: fixed;
   top: 0;
   background: $color-white;
@@ -14,6 +11,11 @@ header {
   .logo {
     height: $height-navbar;
     width: 30%;
+    line-height: $height-navbar;
+
+    span {
+      font-size: 25px;
+    }
   }
 
   nav {
@@ -26,12 +28,11 @@ header {
       margin: 0;
       align-items: center;
       justify-content: flex-end;
+      column-gap: 40px;
 
       li.nav {
         width: 40px;
         height: 100%;
-        margin-left: 20px;
-        padding: 0 10px;
         position: relative;
 
         .nav-container {
@@ -39,19 +40,10 @@ header {
           height: 100%;
           display: block;
           text-align: center;
-          transition: all 0.15s ease-out;
 
           svg {
             width: $size-icon;
             height: 100%;
-            font-size: $size-icon;
-            color: $color-grey;
-          }
-
-          &:hover,
-          &.clicked {
-            cursor: pointer;
-            transform: translateY(3px);
           }
         }
 

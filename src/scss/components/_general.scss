@@ -14,3 +14,12 @@
   color: black;
   text-decoration: none;
 }
+
+.eco-icon {
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+
+  &:hover {
+    transform: translateY(3px);
+  }
+}

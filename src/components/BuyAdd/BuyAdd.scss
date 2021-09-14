@@ -1,7 +1,7 @@
 .buy-add {
   $padding-side: 35px;
 
-  height: auto;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,6 +19,7 @@
 
   .add {
     width: 40%;
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -27,11 +28,6 @@
 
     svg {
       cursor: pointer;
-      font-size: 30px;
-
-      &:first-child {
-        margin-right: 15px;
-      }
     }
   }
 }

@@ -5,8 +5,12 @@
     </button>
 
     <div class="add">
-      <fa :icon="['far', 'heart']" />
-      <fa :icon="['fas', 'shopping-cart']" />
+      <fa class="eco-icon" :style="{ color: iconColor }" :icon="['far', 'heart']" />
+      <fa
+        class="eco-icon"
+        :style="{ color: iconColor }"
+        :icon="['fas', 'shopping-cart']"
+      />
     </div>
   </div>
 </template>
@@ -19,6 +23,10 @@ export default {
     boxWidth: {
       type: String,
       default: '100%'
+    },
+    iconColor: {
+      type: String,
+      required: false
     },
     trunk: {
       type: Object,
