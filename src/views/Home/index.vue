@@ -17,12 +17,30 @@
 
             <div class="data">
               <h3>Color:</h3>
-              <div>color</div>
+              <div class="color">
+                <div
+                  v-for="(color, i) of product.colors"
+                  :key="i"
+                  class="arc"
+                  :style="{
+                    border: `2px solid ${colorActived === i ? color : 'transparent'}`
+                  }"
+                >
+                  <div :style="{ backgroundColor: color }"></div>
+                </div>
+              </div>
             </div>
 
             <div class="data">
               <h3>Size:</h3>
-              <div>size</div>
+              <div class="size">
+                <span
+                  v-for="(size, i) of product.sizes"
+                  :key="i"
+                  v-text="size"
+                  :class="{ active: sizeActived === i }"
+                ></span>
+              </div>
             </div>
           </div>
 
@@ -100,6 +118,7 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 import BuyAdd from '~COMPONENTS/BuyAdd'
 import productsMock from '~DATA/products-mock.json'
 
@@ -115,10 +134,15 @@ export default {
     const product = productsMock[0]
     const user = { trunk: {} }
 
+    const colorActived = ref(0)
+    const sizeActived = ref(1)
+
     return {
       products,
       product,
-      user
+      user,
+      colorActived,
+      sizeActived
     }
   }
 }

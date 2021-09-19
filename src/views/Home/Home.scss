@@ -61,6 +61,57 @@
               font-size: 30px;
               font-weight: 600;
             }
+
+            .color {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              .arc {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                position: relative;
+                border-radius: 50%;
+
+                & > div {
+                  width: 26px;
+                  height: 26px;
+                  margin: auto;
+
+                  position: absolute;
+                  top: 0;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+
+                  border-radius: 50%;
+                }
+              }
+            }
+
+            .size {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              span {
+                cursor: pointer;
+                width: 35px;
+
+                text-align: center;
+                color: $color-grey-lite;
+                font-size: 1.5625rem;
+                letter-spacing: 2px;
+                user-select: none;
+
+                &.active {
+                  color: $color-grey;
+                  font-weight: 600;
+                }
+              }
+            }
           }
         }
       }
@@ -203,17 +254,23 @@
         justify-content: space-between;
 
         .card-step {
-          height: 18.75rem;
           padding: 30px 40px;
 
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-between;
 
           background: white;
           z-index: 1;
 
+          svg,
+          p {
+            margin-bottom: 20px;
+          }
+
           svg {
+            width: 3.75rem;
+            height: auto;
             font-size: 40px;
           }
 
