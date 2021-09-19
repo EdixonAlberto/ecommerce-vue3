@@ -2,77 +2,79 @@
   {
     "id": "1",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-1.png",
     "stars": 4.7,
-    "price": 117.99
+    "price": 117.99,
+    "colors": ["#C2C7D2", "#637289", "#373F45"],
+    "sizes": ["S", "M", "L", "XL"]
   },
   {
     "id": "2",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-2.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "3",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-3.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "4",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-1.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "5",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-2.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "6",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-3.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "7",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-1.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "8",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-2.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "9",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-3.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "10",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-1.png",
     "stars": 4.7,
     "price": 117.99
   },
   {
     "id": "11",
     "name": "product name",
-    "img": "/static/img/product-test.png",
+    "img": "/static/img/product-2.png",
     "stars": 4.7,
     "price": 117.99
   }
