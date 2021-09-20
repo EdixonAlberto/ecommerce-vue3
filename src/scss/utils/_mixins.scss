@@ -1,0 +1,3 @@
+@mixin card-shadow($spread: 0) {
+  box-shadow: 0 5px 20px $spread $color-black-lite;
+}

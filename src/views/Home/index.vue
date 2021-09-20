@@ -147,12 +147,15 @@
           <div class="image"></div>
         </div>
       </div>
+
       <div class="carousel">
-        <img src="/static/img/brands/nike.png" alt="Logo Nice" />
-        <img src="/static/img/brands/adidas.png" alt="Logo Adidas" />
-        <img src="/static/img/brands/puma.png" alt="Logo Puma" />
-        <img src="/static/img/brands/hm.png" alt="Logo HM" />
-        <img src="/static/img/brands/reebok.png" alt="Logo Reebok" />
+        <div class="logos-container">
+          <img src="/static/img/brands/nike.png" alt="Logo Nice" />
+          <img src="/static/img/brands/adidas.png" alt="Logo Adidas" />
+          <img src="/static/img/brands/puma.png" alt="Logo Puma" />
+          <img src="/static/img/brands/hm.png" alt="Logo HM" />
+          <img src="/static/img/brands/reebok.png" alt="Logo Reebok" />
+        </div>
       </div>
     </section>
   </div>
