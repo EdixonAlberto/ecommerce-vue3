@@ -114,6 +114,47 @@
         </div>
       </div>
     </section>
+
+    <section class="brands">
+      <div class="card-container">
+        <div class="card">
+          <h2 class="title">Lorem ipsum</h2>
+          <div class="content">
+            <h2>Lorem, ipsum dolor</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, modi.
+            </p>
+
+            <button class="eco-btn">
+              <span>Browse collection</span>
+            </button>
+          </div>
+          <div class="image"></div>
+        </div>
+
+        <div class="card">
+          <h2 class="title">Lorem ipsum</h2>
+          <div class="content">
+            <h2>Lorem, ipsum dolor</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, modi.
+            </p>
+
+            <button class="eco-btn">
+              <span>Discover more</span>
+            </button>
+          </div>
+          <div class="image"></div>
+        </div>
+      </div>
+      <div class="carousel">
+        <img src="/static/img/brands/nike.png" alt="Logo Nice" />
+        <img src="/static/img/brands/adidas.png" alt="Logo Adidas" />
+        <img src="/static/img/brands/puma.png" alt="Logo Puma" />
+        <img src="/static/img/brands/hm.png" alt="Logo HM" />
+        <img src="/static/img/brands/reebok.png" alt="Logo Reebok" />
+      </div>
+    </section>
   </div>
 </template>
 
