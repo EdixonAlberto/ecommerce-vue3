@@ -36,10 +36,10 @@ library.add(
   faShippingFast
 )
 
-class FontAwesomePlugin {
-  static install(laodComponent) {
-    return laodComponent('fa', FontAwesomeIcon)
+const fontAwesomePlugin = {
+  install: (app, options) => {
+    app.component('fa', FontAwesomeIcon)
   }
 }
 
-export { FontAwesomePlugin }
+export { fontAwesomePlugin }

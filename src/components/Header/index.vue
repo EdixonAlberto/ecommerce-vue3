@@ -1,7 +1,7 @@
 <template>
   <header class="eco-inline">
     <div class="logo">
-      <span>Ecommerce Vue3</span>
+      <span v-text="$PROJECT_NAME"></span>
     </div>
 
     <nav>

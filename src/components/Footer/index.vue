@@ -1,7 +1,7 @@
 <template>
   <footer>
     <section class="copy">
-      <h2>Ecommerce Vue3</h2>
+      <h2 v-text="$PROJECT_NAME"></h2>
       <p>
         &copy; Copyright 2021. Create by
         <a
