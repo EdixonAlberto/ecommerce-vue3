@@ -28,8 +28,6 @@
         h1 {
           margin-top: 0;
           margin-bottom: 1.25rem;
-          font-size: 5rem;
-          font-weight: 500;
           color: $color-grey;
         }
 
@@ -37,8 +35,6 @@
           margin: 0;
           margin-bottom: 2.5rem;
           color: $color-grey-lite;
-          font-size: 1.25rem;
-          line-height: 1.875rem;
         }
 
         .data-container {
@@ -51,13 +47,16 @@
           .data {
             width: 12.5rem;
 
-            h3 {
+            p {
               color: $color-grey-lite;
+            }
+
+            h3 {
+              margin: 0;
             }
 
             span {
               color: $color-grey;
-              font-size: 30px;
               font-weight: 600;
             }
 
@@ -92,14 +91,14 @@
 
             .size {
               display: flex;
-              justify-content: space-between;
+              justify-content: flex-start;
               align-items: center;
 
               span {
                 cursor: pointer;
                 width: 35px;
 
-                text-align: center;
+                text-align: left;
                 color: $color-grey-lite;
                 font-size: 1.5625rem;
                 letter-spacing: 2px;
@@ -169,7 +168,9 @@
           opacity: 0;
           transition: opacity 0.3s ease-in-out;
 
-          p {
+          p,
+          span {
+            color: #fff;
             margin-top: 0;
           }
 
@@ -184,9 +185,9 @@
             font-weight: 400;
 
             svg {
-              font-size: 20px;
               margin-right: 10px;
               color: $color-white;
+              font-size: 20px;
             }
           }
 
@@ -198,7 +199,6 @@
 
             p {
               padding-left: 10px;
-              font-size: 20px;
               font-weight: 500;
 
               span {
@@ -220,10 +220,8 @@
 
         h2 {
           margin: auto;
-          color: $color-white;
           text-align: center;
-          font-size: 50px;
-          font-weight: 600;
+          color: $color-white;
           line-height: 410px;
         }
       }
@@ -243,7 +241,6 @@
         margin-bottom: 70px;
         color: $color-white;
         font-size: 40px;
-        font-weight: 500;
       }
 
       .steps {
@@ -277,17 +274,18 @@
 
           p {
             margin-top: 0;
-            font-size: 1.25rem;
-            line-height: 1.875rem;
             color: $color-grey-lite;
           }
 
           a {
             width: max-content;
-            color: $color-grey;
-            font-weight: 600;
             text-decoration: none;
-            text-transform: capitalize;
+
+            span {
+              color: $color-grey;
+              font-weight: 600;
+              text-transform: capitalize;
+            }
           }
         }
       }
@@ -342,12 +340,11 @@
           transform: scale(0.98);
         }
 
-        .title {
+        h4 {
           position: absolute;
           top: 20px;
           left: 40px;
 
-          font-size: 1.5625rem;
           margin-bottom: 50px;
         }
 
@@ -355,13 +352,10 @@
           width: 60%;
 
           h2 {
-            font-size: 1.875rem;
             text-transform: uppercase;
           }
 
           p {
-            font-size: 1.25rem;
-            line-height: 1.875rem;
             margin-bottom: 2.5rem;
           }
 
@@ -407,6 +401,47 @@
           height: 4.375rem;
         }
       }
+    }
+  }
+
+  section.promotion {
+    width: 100%;
+    height: max-content;
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: $color-grey;
+
+    .content {
+      width: 50%;
+      color: #fff;
+
+      h3 {
+        text-transform: uppercase;
+      }
+
+      button {
+        width: 200px;
+        height: 60px;
+        margin-top: 50px;
+      }
+    }
+
+    .image {
+      width: 50%;
+      height: 400px;
+
+      position: absolute;
+      right: 70px;
+      bottom: 0;
+
+      background-image: url('/static/img/banner-footer.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom right;
     }
   }
 }

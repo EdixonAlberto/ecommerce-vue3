@@ -1,7 +1,7 @@
 <template>
   <header class="eco-inline">
     <div class="logo">
-      <span v-text="$PROJECT_NAME"></span>
+      <h3 v-text="$PROJECT_NAME"></h3>
     </div>
 
     <nav>

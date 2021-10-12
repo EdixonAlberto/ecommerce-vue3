@@ -1,6 +1,7 @@
 .eco-btn {
   cursor: pointer;
   width: max-content;
+  padding: 0;
   background: #fff;
   border: 3px solid;
   box-shadow: 5px 5px 0 0 $color-black;
@@ -10,6 +11,7 @@
     color: $color-black;
     font-size: 18px;
     font-weight: 700;
+    text-transform: capitalize;
   }
 
   &:focus {

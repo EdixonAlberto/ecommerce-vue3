@@ -36,7 +36,6 @@ export default {
 
   setup(props) {
     const { trunk } = toRefs(props)
-    console.log(trunk.value)
   }
 }
 </script>

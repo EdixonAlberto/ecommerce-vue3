@@ -16,6 +16,11 @@ footer {
   }
 
   .copy {
+    h2,
+    p {
+      margin-bottom: 0;
+    }
+
     a {
       color: $color-grey;
       font-weight: 700;

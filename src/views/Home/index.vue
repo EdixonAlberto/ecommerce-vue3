@@ -11,12 +11,12 @@
 
           <div class="data-container">
             <div class="data">
-              <h3>Price:</h3>
-              <span>$ 117.99</span>
+              <p>Price:</p>
+              <h3>$ 117.99</h3>
             </div>
 
             <div class="data">
-              <h3>Color:</h3>
+              <p>Color:</p>
               <div class="color">
                 <div
                   v-for="(color, i) of product.colors"
@@ -32,7 +32,7 @@
             </div>
 
             <div class="data">
-              <h3>Size:</h3>
+              <p>Size:</p>
               <div class="size">
                 <span
                   v-for="(size, i) of product.sizes"
@@ -89,7 +89,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
               corrupti.
             </p>
-            <router-link to="#">Read more</router-link>
+            <router-link to="#"><span>Read more</span></router-link>
           </div>
 
           <div class="card-step">
@@ -99,7 +99,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
               corrupti.
             </p>
-            <router-link to="#">Read more</router-link>
+            <router-link to="#"><span>Read more</span></router-link>
           </div>
 
           <div class="card-step">
@@ -109,7 +109,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
               corrupti.
             </p>
-            <router-link to="#">Read more</router-link>
+            <router-link to="#"><span>Read more</span></router-link>
           </div>
         </div>
       </div>
@@ -118,31 +118,27 @@
     <section class="brands">
       <div class="card-container">
         <div class="card">
-          <h2 class="title">Lorem ipsum</h2>
+          <h4>Lorem ipsum</h4>
           <div class="content">
-            <h2>Lorem, ipsum dolor</h2>
+            <h3>Lorem, ipsum dolor</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, modi.
             </p>
 
-            <button class="eco-btn">
-              <span>Browse collection</span>
-            </button>
+            <button class="eco-btn"><span>Browse collection</span></button>
           </div>
           <div class="image"></div>
         </div>
 
         <div class="card">
-          <h2 class="title">Lorem ipsum</h2>
+          <h4>Lorem ipsum</h4>
           <div class="content">
-            <h2>Lorem, ipsum dolor</h2>
+            <h3>Lorem, ipsum dolor</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, modi.
             </p>
 
-            <button class="eco-btn">
-              <span>Discover more</span>
-            </button>
+            <button class="eco-btn"><span>Discover more</span></button>
           </div>
           <div class="image"></div>
         </div>
@@ -157,6 +153,21 @@
           <img src="/static/img/brands/reebok.png" alt="Logo Reebok" />
         </div>
       </div>
+    </section>
+
+    <section class="promotion">
+      <div class="content">
+        <h3>Lorem ipsum dolor sit</h3>
+        <h2>Enjoy up to 70% off!</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus
+          at corporis.
+        </p>
+
+        <button class="eco-btn"><span>Shop now</span></button>
+      </div>
+
+      <div class="image"></div>
     </section>
   </div>
 </template>
