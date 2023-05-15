@@ -1,5 +1,6 @@
 {
   "name": "ecommerce-vue3",
+  "description": "Plantilla web para un ecommerce creada con Vue3",
   "version": "0.0.1",
   "private": true,
   "license": "UNLISENCED",

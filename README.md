@@ -1,8 +1,14 @@
 # Ecommerce Vue3
 
-## Used Technology
+Plantilla web para un ecommerce creada con Vue3
+
+
+### Tecnologías:
 
 - Vue 3
-- Vuex and VueRouter
+- Vite
+- Vuex
+- Vue Router
 - Sass
--
+
+![preview](./preview.png)
